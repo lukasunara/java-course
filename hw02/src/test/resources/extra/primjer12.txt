@@ -1,0 +1,7 @@
+This is sample text.
+{$ FOR i 1 10 1 $}
+ This is {$= i $}-th time this message is generated.
+{$END$}
+{$= 10.25 $}
+Baca error zbog previse END-tagova
+{$END$}
